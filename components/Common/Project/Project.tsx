@@ -28,7 +28,7 @@ const Project = ({
   links,
   className,
 }: Props) => {
-  const tech = data.technologies.filter((t) => technologies.includes(t.id));
+  const tech = data.technologies.filter((t:any) => technologies.includes(t.slug));
 
   return (
     <div className={clsx("block lg:flex space-between", className)}>
@@ -44,7 +44,7 @@ const Project = ({
                 detailed={false}
                 src={t.thumbnail}
                 link={t.link}
-                key={t.id}
+                key={t.slug}
                 title={t.title}
                 width={30}
                 height={30}
