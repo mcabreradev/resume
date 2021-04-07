@@ -1,0 +1,139 @@
+{
+  "name": "Miguelángel Cabrera",
+  "title": "Frontend Engineer",
+  "biography": {
+    "short": "a passionate Frontend Engineer building robust web. Interested in TypeScript, React, Vuejs, GraphQL, and Node",
+    "long": []
+  },
+  "profilePicture": "https://firebasestorage.googleapis.com/v0/b/miguelangel-cabrera.appspot.com/o/images%2Fprofile.jpg?alt=media&token=220e4985-21b6-4ca6-890d-ce7ef53cca4e",
+  "social": {
+    "github": "https://github.com/mcabreradev",
+    "twitter": "https://twitter.com/mcabreradev",
+    "linkedin": "https://www.linkedin.com/in/mcabreradev/",
+    "whatsapp": "https://api.whatsapp.com/send?phone=541122510921&text=Hi%20Migue%20i%20want%20to%20contact%20you&source=&data=",
+    "email": "mailto:mcabrera.dev@gmail.com"
+  },
+  "website": "https://mcabrera.xyz",
+  "links": {
+    "binus": "https://binus.ac.id",
+    "kotakode": "https://kotakode.com"
+  },
+  "resume": "https://firebasestorage.googleapis.com/v0/b/miguelangel-cabrera.appspot.com/o/images%2FMiguelangel%20Cabrera's%20-%20Resume.pdf?alt=media&token=4529a75c-6ee0-4261-96f2-3d81e171ffa8",
+  "experience": [
+    {
+      "role": "Frontend Engineer",
+      "company": "SOUTHERN MINDS",
+      "link": "",
+      "time": {
+        "start": "Dec 2020",
+        "end": "Present"
+      },
+      "technologies": ["react", "ts", "graphql", "node", "postgres", "tailwind"],
+      "points": [
+        "E-commerce site developed with Nextjs Server Side Render and Graphql Headless Backend.",
+        "Fix bugs and implemented enhancements speed  and catching on existing code base"
+      ]
+    },
+    {
+      "role": "Frontend Engineer",
+      "company": "LENIOLABS_LLC",
+      "link": "https://leniolabs.com",
+      "time": {
+        "start": "Oct 2018",
+        "end": "Nov 2020"
+      },
+      "technologies": ["react", "angular", "jquery","node", "postgres"],
+      "points": [
+        "Creation of components  and design using Storybook.",
+        "PWA design and implementation.",
+        "Working with multinational and multicultural distributed team.",
+        "Balance project constraints to deliver profitable products and services on a establishedtime and budget."
+      ]
+    },
+    {
+      "role": "Frontend Engineer",
+      "company": "EULAS INC",
+      "link": "",
+      "time": {
+        "start": "Sep 2017",
+        "end": "Oct 2018"
+      },
+      "technologies": ["react", "jquery", "redux", "sass"],
+      "points": [
+        "Revamped UI and app interface for customer-facing e-commerce site with 200,000+ unique visitors per month.",
+        "Maintaining codebase, Enhancing, Refactoring, Bug fixing of legacy code.",
+        "Worked with agile team to migrate legacy company website to React, Sass, HTML5.",
+        "Developed and maintained critical components of e-commerce website, including shopping cart, quick view, and checkout page, using React components."
+      ]
+    },
+    {
+      "role": "FullStack Developer",
+      "company": "Panal Soft",
+      "link": "",
+      "time": {
+        "start": "Dec 2015",
+        "end": "Sep 2017"
+      },
+      "technologies": ["react", "jquery", "redux", "sass"],
+      "points": [
+        "Overseeing a team of 5 web developers and providing daily feedback.",
+        "Designed and developed front-end for 20+ websites, using Laravel, Vuejs, Angular.",
+        "Develop new UI functionality for multithreaded user-facing applications running on touchscreen devices, using AngularJS"
+      ]
+    },
+    {
+      "role": "Frontend Developer",
+      "company": "KOUNTERATTACK",
+      "link": "",
+      "time": {
+        "start": "Apr 2013",
+        "end": "Nov 2015"
+      },
+      "technologies": ["react", "jquery", "redux", "sass"],
+      "points": [
+        "Frontend Development with Javascripts frameworks like AngularJs and using Node.js and Express. RESTful Apis.",
+        "Translated design team’s UX wireframes and mockups into responsive, interactive features, using HTML/CSS and JavaScript.",
+        "Introduced wireframing and information architecture concepts to increase team productivity."
+      ]
+    },
+    {
+      "role": "Frontend Developer",
+      "company": "TACTICAL SECURITY",
+      "link": "",
+      "time": {
+        "start": "Apr 2012",
+        "end": "Apr 2013"
+      },
+      "technologies": ["react", "jquery", "redux", "sass"],
+      "points": [
+        "Created frontend prototype for a CRM web platform.",
+        "Assisted in development of backend features in PHP.",
+        "Introduced wireframing and information architecture concepts to increase team productivity."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "React Pokédex",
+      "src": "https://stevenhansel.s3-ap-southeast-1.amazonaws.com/react-pokedex.mp4",
+      "technologies": [0, 1, 6],
+      "description": "a simple & modern pokédex to look up at pokémons. View your favorite pokemon status & information with elegant & fashion. The data of the pokemons was fetched from PokéAPI, which is an open-source public API that serves pokemons data, please support them! .",
+      "links": {
+        "github": "https://github.com/ShinteiMai/react-pokedex",
+        "external": "https://pokedex.stevenhansel.com",
+        "dribbble": ""
+      }
+    },
+    {
+      "title": "Portfolio",
+      "src": "https://stevenhansel.s3-ap-southeast-1.amazonaws.com/stevenhansel.mp4",
+      "technologies": [0, 1, 6],
+      "description": "personal portfolio site made with Next.js, it consists of my biography, experience, contacts, and also the projects that i have made either on solo or team projects. The design is based on my favorite color!",
+      "links": {
+        "github": "https://github.com/ShinteiMai/stevenhansel.com",
+        "external": "https://stevenhansel.com",
+        "dribbble": ""
+      }
+    }
+  ]
+}
