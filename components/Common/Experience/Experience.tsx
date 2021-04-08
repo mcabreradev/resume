@@ -1,19 +1,13 @@
+import React from "react";
 import { TComponent } from "@components/types";
-import { Tab, TextLink } from "@components/UI";
+import { TextLink } from "@components/UI";
 import { profile, technologies } from "@data/json";
-import React, { useState } from "react";
 import { BiRightArrow } from "react-icons/bi";
 import Technology from "../Technology";
 
 interface Props extends TComponent {}
 
 const Experience = ({}: Props) => {
-  const [activeExperience, setActiveExperience] = useState<number>(0);
-
-  const details = profile.experience[activeExperience];
-  const tech = technologies.technologies.filter((tech) =>
-    details.technologies.includes(tech.slug)
-  );
 
   const {experience} = profile;
 

@@ -28,7 +28,7 @@
         "start": "Dec 2020",
         "end": "Present"
       },
-      "technologies": ["react", "ts", "graphql", "node", "postgres", "tailwind"],
+      "technologies": ["nextjs", "ts", "graphql", "node", "postgres", "tailwind"],
       "points": [
         "E-commerce site developed with Nextjs Server Side Render and Graphql Headless Backend.",
         "Fix bugs and implemented enhancements speed  and catching on existing code base"
@@ -42,7 +42,7 @@
         "start": "Oct 2018",
         "end": "Nov 2020"
       },
-      "technologies": ["react", "angular", "jquery","node", "postgres"],
+      "technologies": ["react", "angular", "jquery","node", "postgres", "nextjs", "postman"],
       "points": [
         "Creation of components  and design using Storybook.",
         "PWA design and implementation.",
@@ -58,7 +58,7 @@
         "start": "Sep 2017",
         "end": "Oct 2018"
       },
-      "technologies": ["react", "jquery", "redux", "sass"],
+      "technologies": ["react", "jquery", "redux", "sass", "git"],
       "points": [
         "Revamped UI and app interface for customer-facing e-commerce site with 200,000+ unique visitors per month.",
         "Maintaining codebase, Enhancing, Refactoring, Bug fixing of legacy code.",
@@ -74,7 +74,7 @@
         "start": "Dec 2015",
         "end": "Sep 2017"
       },
-      "technologies": ["react", "jquery", "redux", "sass"],
+      "technologies": ["vue", "laravel", "mysql", "postgres", "angular", "sass", "postman", "webpack"],
       "points": [
         "Overseeing a team of 5 web developers and providing daily feedback.",
         "Designed and developed front-end for 20+ websites, using Laravel, Vuejs, Angular.",
@@ -89,7 +89,7 @@
         "start": "Apr 2013",
         "end": "Nov 2015"
       },
-      "technologies": ["react", "jquery", "redux", "sass"],
+      "technologies": ["angular", "jquery", "laravel", "sass", "mysql", "express", "mongodb"],
       "points": [
         "Frontend Development with Javascripts frameworks like AngularJs and using Node.js and Express. RESTful Apis.",
         "Translated design team’s UX wireframes and mockups into responsive, interactive features, using HTML/CSS and JavaScript.",
@@ -104,7 +104,7 @@
         "start": "Apr 2012",
         "end": "Apr 2013"
       },
-      "technologies": ["react", "jquery", "redux", "sass"],
+      "technologies": ["cakephp", "jquery", "php", "mysql"],
       "points": [
         "Created frontend prototype for a CRM web platform.",
         "Assisted in development of backend features in PHP.",
