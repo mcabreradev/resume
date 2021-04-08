@@ -1,6 +1,6 @@
 {
   "stacks":{
-    "Esscentials": ["html5", "css", "bootstrap", "sass", "gulp", "webpack", "git"],
+    "Esscentials": ["html5", "tailwind","css", "bootstrap", "sass", "gulp", "webpack", "git"],
     "Frontend": ["typescript", "react", "nextjs", "nuxt", "redux", "vue"],
     "Backend": ["node", "laravel", "php", "postgres", "mysql", "mongodb", "firebase"],
     "Testing": ["jest"],
