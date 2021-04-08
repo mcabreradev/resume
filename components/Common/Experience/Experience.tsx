@@ -14,9 +14,9 @@ const Experience = ({}: Props) => {
   return (
     <>
       { experience.map((experience: any, index: any) => (
-        <div key={`experience-${index}`} data-testid="experience" className="flex flex-col md:flex-row mb-10">
+        <div key={`experience-${index}`} data-testid="experience" className="flex flex-col md:flex-row mb-20">
           <div>
-            <h2 className="text-lg text-accents-2 font-medium">
+            <h2 className="text-md text-accents-2 font-medium">
               {experience.role}{" "}
               <TextLink newTab href={experience.link} className="text-lg text-primary">
                 @{experience.company}
@@ -42,7 +42,7 @@ const Experience = ({}: Props) => {
               ))}
             </ul>
             <div className="mt-4s">
-              <span className="text-accents-1 text-sm flex items-end justify-between">
+              <span className="text-accents-1 text-sm flex flex-col">
                 Technologies:
                 <div className="flex flex-wrap mt-2">
                   {experience.technologies.map((tech:any, j:any) => {

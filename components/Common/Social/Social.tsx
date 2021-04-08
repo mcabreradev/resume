@@ -13,22 +13,22 @@ const Social = ({ className, size, "data-testid": testId }: Props) => {
   return (
     <div
       data-testid={testId || "social"}
-      className={clsx("flex items-center justify-between", className)}
+      className={clsx("flex items-center", className)}
     >
       <TextLink newTab href={data.social.github}>
-        <Icon className="mr-3" SVG={SiGithub} size={size} />
+        <Icon className="mx-2" SVG={SiGithub} size={size} />
       </TextLink>
       <TextLink newTab href={data.social.linkedin}>
-        <Icon className="mr-3" SVG={SiLinkedin} size={size} />
+        <Icon className="mx-2" SVG={SiLinkedin} size={size} />
       </TextLink>
       <TextLink newTab href={data.social.twitter}>
-        <Icon className="mr-3" SVG={SiTwitter} size={size} />
+        <Icon className="mx-2" SVG={SiTwitter} size={size} />
       </TextLink>
       <TextLink newTab href={data.social.whatsapp}>
-        <Icon className="mr-3" SVG={SiWhatsapp} size={size} />
+        <Icon className="mx-2" SVG={SiWhatsapp} size={size} />
       </TextLink>
       <TextLink newTab href={data.social.email}>
-        <Icon className="mr-3" SVG={SiGmail} size={size} />
+        <Icon className="mx-2" SVG={SiGmail} size={size} />
       </TextLink>
     </div>
   );

@@ -13,7 +13,7 @@ const Sidebar = ({ className, "data-testid": testId }: Props) => {
       <Avatar
         className="mb-4"
         src={profile.profilePicture}
-        alt="Steven Hansel"
+        alt={profile.name}
       />
       <h2 className="text-accents-2 text-xl md:text-lg font-medium mb-4 md:mb-0">
         {profile.name}
@@ -21,9 +21,11 @@ const Sidebar = ({ className, "data-testid": testId }: Props) => {
       <p className="text-sm text-accents-1 hidden md:block mb-6 w-full md:w-3/5 lg:w-full md:mx-auto lg:mx-0">
         {profile.biography.short}
       </p>
-      <div className="flex items-center justify-evenly lg:inline-block mb-4 lg:mb-0">
-        <Social className="lg:mb-6 lg:mx-0 w-24" />
-        <Button link={profile.resume} className="lg:mb-16">
+      <div className="flex items-center justify-evenly lg:inline-block mb-4 lg:mb-0 flex-col">
+
+        <Social className="lg:mb-6 lg:mx-0 mt-5 mb-10" />
+
+        <Button link={profile.resume} className="lg:mt-5 mb-10 mt-1">
           Resume
         </Button>
       </div>
