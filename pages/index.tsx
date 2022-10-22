@@ -1,6 +1,5 @@
 import { Experience, Technology } from "@components/Common";
-import { TextLink } from "@components/UI";
-import { profile, technologies } from "@data/json";
+import { technologies } from "@data/json";
 
 const IndexPage = () => {
   return (
@@ -34,7 +33,7 @@ const IndexPage = () => {
               <div className="grid grid-cols-4 lg:grid-cols-8 gap-y-6">
                 {stack[1].map((tech:any) => {
                   const image = technologies.technologies.find(t => t.slug === tech)
-                  return image && (
+                  return !!image && (
                     <Technology
                       detailed={false}
                       src={image?.thumbnail}
@@ -42,8 +41,8 @@ const IndexPage = () => {
                       link={image?.link}
                       key={image?.slug}
                       className="mr-3"
-                      width={40}
-                      height={40}
+                      width={50}
+                      height={50}
                     />
                   )
                 })}

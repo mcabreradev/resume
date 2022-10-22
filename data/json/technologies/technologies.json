@@ -3,14 +3,14 @@
     {
       "title": "React",
       "description": "",
-      "thumbnail": "/images/react.png",
+      "thumbnail": "/images/react.svg",
       "link": "https://reactjs.org/",
       "slug": "react"
     },
     {
       "title": "TypeScript",
       "description": "",
-      "thumbnail": "/images/typescript.png",
+      "thumbnail": "/images/typescript.svg",
       "link": "https://www.typescriptlang.org/",
       "slug": "typescript"
     },
@@ -18,35 +18,35 @@
     {
       "title": "GraphQL",
       "description": "",
-      "thumbnail": "/images/graphql.png",
+      "thumbnail": "/images/graphql.svg",
       "link": "https://graphql.org/",
       "slug": "graphql"
     },
     {
       "title": "NestJS",
       "description": "",
-      "thumbnail": "/images/nestjs.png",
+      "thumbnail": "/images/nestjs.svg",
       "link": "https://nestjs.com/",
       "slug": "nestjs"
     },
     {
       "title": "Node.js",
       "description": "",
-      "thumbnail": "/images/express.png",
+      "thumbnail": "/images/nodejs.svg",
       "link": "https://nodejs.org/en/",
       "slug": "node"
     },
     {
       "title": "PostgreSQL",
       "description": "",
-      "thumbnail": "/images/postgresql.png",
+      "thumbnail": "/images/postgresql.svg",
       "link": "https://www.postgresql.org/",
       "slug": "postgres"
     },
     {
       "title": "Tailwind CSS",
       "description": "",
-      "thumbnail": "/images/tailwind.png",
+      "thumbnail": "/images/tailwindcss.svg",
       "link": "https://tailwindcss.com/",
       "slug": "tailwind"
     },
@@ -60,35 +60,42 @@
     {
       "title": "Angular",
       "description": "",
-      "thumbnail": "/images/angular.png",
+      "thumbnail": "/images/angular.svg",
       "link": "",
       "slug": "angular"
     },
     {
       "title": "Bootstrap",
       "description": "",
-      "thumbnail": "/images/bootstrap.png",
+      "thumbnail": "/images/bootstrap.svg",
       "link": "",
       "slug": "bootstrap"
     },
     {
       "title": "Cakephp",
       "description": "",
-      "thumbnail": "/images/cakephp.png",
+      "thumbnail": "/images/cakephp.svg",
       "link": "",
       "slug": "cakephp"
     },
     {
       "title": "Css",
       "description": "",
-      "thumbnail": "/images/css.jpg",
+      "thumbnail": "/images/css.svg",
       "link": "",
       "slug": "css"
     },
     {
+      "title": "Javascript",
+      "description": "",
+      "thumbnail": "/images/javascript.svg",
+      "link": "",
+      "slug": "javascript"
+    },
+    {
       "title": "Docker",
       "description": "",
-      "thumbnail": "/images/docker.png",
+      "thumbnail": "/images/docker.svg",
       "link": "",
       "slug": "docker"
     },
@@ -102,49 +109,35 @@
     {
       "title": "Figma",
       "description": "",
-      "thumbnail": "/images/figma.png",
+      "thumbnail": "/images/figma.svg",
       "link": "",
       "slug": "figma"
     },
     {
       "title": "Firebase",
       "description": "",
-      "thumbnail": "/images/firebase.png",
+      "thumbnail": "/images/firebase.svg",
       "link": "",
       "slug": "firebase"
     },
     {
       "title": "Git",
       "description": "",
-      "thumbnail": "/images/git.png",
+      "thumbnail": "/images/git.svg",
       "link": "",
       "slug": "git"
     },
     {
-      "title": "Gulp",
-      "description": "",
-      "thumbnail": "/images/gulp.png",
-      "link": "",
-      "slug": "gulp"
-    },
-    {
-      "title": "Heroku",
-      "description": "",
-      "thumbnail": "/images/heroku.png",
-      "link": "",
-      "slug": "heroku"
-    },
-    {
       "title": "Html5",
       "description": "",
-      "thumbnail": "/images/html5.png",
+      "thumbnail": "/images/html.svg",
       "link": "",
       "slug": "html5"
     },
     {
       "title": "Jest",
       "description": "",
-      "thumbnail": "/images/jest.png",
+      "thumbnail": "/images/jest.svg",
       "link": "",
       "slug": "jest"
     },
@@ -158,28 +151,28 @@
     {
       "title": "Laravel",
       "description": "",
-      "thumbnail": "/images/laravel.png",
+      "thumbnail": "/images/laravel.svg",
       "link": "",
       "slug": "laravel"
     },
     {
       "title": "Mongo DB",
       "description": "",
-      "thumbnail": "/images/mongodb.png",
+      "thumbnail": "/images/mongodb.svg",
       "link": "",
       "slug": "mongodb"
     },
     {
       "title": "Mysql",
       "description": "",
-      "thumbnail": "/images/mysql.png",
+      "thumbnail": "/images/mysql.svg",
       "link": "",
       "slug": "mysql"
     },
     {
       "title": "Nextjs",
       "description": "",
-      "thumbnail": "/images/nextjs.jpeg",
+      "thumbnail": "/images/nextjs.svg",
       "link": "",
       "slug": "nextjs"
     },
@@ -193,21 +186,21 @@
     {
       "title": "PHP",
       "description": "",
-      "thumbnail": "/images/php.png",
+      "thumbnail": "/images/php.svg",
       "link": "",
       "slug": "php"
     },
     {
       "title": "Postman",
       "description": "",
-      "thumbnail": "/images/postman.png",
+      "thumbnail": "/images/postman.svg",
       "link": "",
       "slug": "postman"
     },
     {
       "title": "Redux",
       "description": "",
-      "thumbnail": "/images/redux.png",
+      "thumbnail": "/images/redux.svg",
       "link": "",
       "slug": "redux"
     },
@@ -221,30 +214,65 @@
     {
       "title": "Socket-io",
       "description": "",
-      "thumbnail": "/images/socket-io.png",
+      "thumbnail": "/images/socket-io.svg",
       "link": "",
       "slug": "socket-io"
     },
     {
       "title": "VsCode",
       "description": "",
-      "thumbnail": "/images/vscode.png",
+      "thumbnail": "/images/vscode.svg",
       "link": "",
       "slug": "vscode"
     },
     {
       "title": "Vue",
       "description": "",
-      "thumbnail": "/images/vue.png",
+      "thumbnail": "/images/vue.svg",
       "link": "",
       "slug": "vue"
     },
     {
       "title": "Webpack",
       "description": "",
-      "thumbnail": "/images/webpack.png",
+      "thumbnail": "/images/webpack.svg",
       "link": "",
       "slug": "webpack"
+    },
+    {
+      "title": "Ionic",
+      "description": "",
+      "thumbnail": "/images/ionic.svg",
+      "link": "https://ionic.org/",
+      "slug": "ionic"
+    },
+    {
+      "title": "React Query",
+      "description": "",
+      "thumbnail": "/images/react-query.svg",
+      "link": "https://reactquery.org/",
+      "slug": "react-query"
+    },
+    {
+      "title": "Vite",
+      "description": "",
+      "thumbnail": "/images/vitejs.svg",
+      "link": "https://vite.org/",
+      "slug": "vitejs"
+    },
+    {
+      "title": "Storybook",
+      "description": "",
+      "thumbnail": "/images/storybook.svg",
+      "link": "https://storybook.org/",
+      "slug": "storybook"
+    },
+    {
+      "title": "Github",
+      "description": "",
+      "thumbnail": "/images/github.svg",
+      "link": "https://github.org/",
+      "slug": "github"
     }
   ]
 }

@@ -19,13 +19,13 @@ const Layout = ({ children }: Props) => {
         <meta name="title" content={profile.name} />
         <meta
           name="description"
-          content={""+profile.biography}
+          content={""+profile.biography.short}
         />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content={profile.website} />
         <meta property="og:title" content={profile.name} />
-        <meta property="og:description" content={""+profile.biography}/>
+        <meta property="og:description" content={""+profile.biography.short}/>
         <meta
           property="og:image"
           content={profile.profilePicture}
@@ -36,7 +36,7 @@ const Layout = ({ children }: Props) => {
         <meta property="twitter:title" content={profile.name} />
         <meta
           property="twitter:description"
-          content={""+profile.biography}
+          content={""+profile.biography.short}
         />
         <meta
           property="twitter:image"

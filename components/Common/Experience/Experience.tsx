@@ -16,9 +16,9 @@ const Experience = ({}: Props) => {
       { experience.map((experience: any, index: any) => (
         <div key={`experience-${index}`} data-testid="experience" className="flex flex-col md:flex-row mb-20">
           <div>
-            <h2 className="text-md text-accents-2 font-medium">
+            <h2 className="text-lg text-secondary font-bold uppercase">
               {experience.role}{" "}
-              <TextLink newTab href={experience.link} className="text-lg text-primary">
+              <TextLink newTab href={experience.link} className="text-md text-primary">
                 @{experience.company}
               </TextLink>
             </h2>
@@ -47,18 +47,18 @@ const Experience = ({}: Props) => {
                 <div className="flex flex-wrap mt-2">
                   {experience.technologies.map((tech:any, j:any) => {
                     const image = technologies.technologies.find(t => t.slug === tech)
-                    if(image){
-                      return <Technology
+                    return !!image && (
+                      <Technology
                         detailed={false}
                         src={image.thumbnail}
                         title={image.title}
                         link={image.link}
                         key={image.slug}
                         className="mr-3"
-                        width={30}
-                        height={30}
+                        width={40}
+                        height={40}
                       />
-                    }
+                    )
                   })}
                 </div>
               </span>

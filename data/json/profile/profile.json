@@ -2,7 +2,7 @@
   "name": "Miguelángel Cabrera",
   "title": "Frontend Engineer",
   "biography": {
-    "short": "a passionate Frontend Engineer building robust web. Interested in TypeScript, React, Vuejs, GraphQL, and Node",
+    "short": "A passionate Frontend Engineer building robust web. Interested in Typescript React, Vuejs, GraphQL, and Node",
     "long": []
   },
   "profilePicture": "https://firebasestorage.googleapis.com/v0/b/miguelangel-cabrera.appspot.com/o/images%2Fprofile.jpg?alt=media&token=220e4985-21b6-4ca6-890d-ce7ef53cca4e",
@@ -13,7 +13,7 @@
     "whatsapp": "https://api.whatsapp.com/send?phone=541122510921&text=Hi%20Migue%20i%20want%20to%20contact%20you&source=&data=",
     "email": "mailto:mcabrera.dev@gmail.com"
   },
-  "website": "https://mcabrera.xyz",
+  "website": "https://mcabrera.dev",
   "links": {
     "binus": "https://binus.ac.id",
     "kotakode": "https://kotakode.com"
@@ -22,11 +22,25 @@
   "experience": [
     {
       "role": "FullStack Engineer",
+      "company": "Clevertech",
+      "link": "http://clevertech.biz",
+      "time": {
+        "start": "May 2020",
+        "end": "Present"
+      },
+      "technologies": ["ionic", "ts", "graphql", "node", "react", "storybook"],
+      "points": [
+        "E-commerce site developed with Nextjs Server Side Render and Graphql Headless Backend.",
+        "Fix bugs and implemented enhancements speed  and catching on existing code base"
+      ]
+    },
+    {
+      "role": "FullStack Engineer",
       "company": "SOUTHERN MINDS",
       "link": "",
       "time": {
         "start": "Dec 2020",
-        "end": "Present"
+        "end": "May 2020"
       },
       "technologies": ["nextjs", "ts", "graphql", "node", "postgres", "tailwind"],
       "points": [

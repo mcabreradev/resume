@@ -1,10 +1,10 @@
 {
   "stacks":{
-    "Esscentials": ["html5", "tailwind","css", "bootstrap", "sass", "gulp", "webpack", "git"],
-    "Frontend": ["typescript", "react", "nextjs", "nuxt", "redux", "vue", "graphql"],
+    "Esscentials": ["html5", "javascript", "tailwind", "css", "github", "storybook", "sass"],
+    "Frontend": ["typescript", "react", "nextjs", "graphql", "ionic", "react-query", "redux", "bulma"],
     "Backend": ["node", "laravel", "php", "postgres", "mysql", "mongodb", "firebase"],
     "Testing": ["jest"],
-    "Devops": ["docker", "heroku"],
-    "Tools": ["vscode", "figma"]
+    "Devops": ["docker"],
+    "Tools": ["vscode", "figma", "vitejs", "postman", "git"]
   }
 }

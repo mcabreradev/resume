@@ -18,10 +18,10 @@ class MyApp extends App {
     };
 
     return (
-      <>
+      <div className="bg-accents-0 text-accents-1 m-0 p-0">
         <Layout>
           <div className="relative">
-            <h2 className="text-5xl font-medium hidden lg:block text-accents-2">
+            <h2 className="text-5xl font-light hidden lg:block text-accents-2 uppercase">
               {this.props.router.pathname.slice(1) === ""
                 ? "About"
                 : capitalize(this.props.router.pathname.slice(1))}
@@ -49,16 +49,9 @@ class MyApp extends App {
               margin: 0;
               padding: 0;
             }
-
-            body {
-              margin: 0;
-              padding: 0;
-              background: #323030;
-              color: #cacaca;
-            }
           `}
         </style>
-      </>
+      </div>
     );
   }
 }

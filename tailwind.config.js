@@ -47,9 +47,11 @@ module.exports = {
         178: "42rem",
       },
       colors: {
-        primary: "#24ffcb",
-        secondary: "#64FFDA",
-        "accents-0": "#323030",
+        primary: "#60FFC9",
+        secondary: "#A177FF",
+        red: "#ff6767",
+        yellow: "#ffff00",
+        "accents-0": "#212121",
         "accents-1": "#CACACA",
         "accents-2": "#E9E9E9",
         ...colors

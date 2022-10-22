@@ -22,13 +22,10 @@ const Technology = ({
   link,
   detailed = true,
 }: Props) => {
-  const [showTitle, setShowTitle] = useState<boolean>(false);
-  const [isActivated, setIsActivated] = useState<boolean>(false);
-
   return (
     <div
       data-testid={testId || "technology"}
-      className={clsx("text-center flex flex-col items-center", className)}
+      className={clsx("text-center flex flex-col items-center justify-center", className)}
     >
       <img
         src={src}
@@ -36,19 +33,7 @@ const Technology = ({
         title={title || "Technology"}
         width={`${width}px` || "50px"}
         height={`${height}px` || "50px"}
-        className={clsx(
-          "cursor-pointer transform hover:-translate-y-1 transition-all duration-200 ease-in-out",
-          {
-            "-translate-y-1": isActivated,
-          }
-        )}
-        onMouseEnter={() => {
-          if (!isActivated) setShowTitle(true);
-        }}
-        onMouseLeave={() => {
-          if (!isActivated) setShowTitle(false);
-        }}
-        onClick={() => setIsActivated(!isActivated)}
+        style={{'height': `${height}px`|| "50px"}}
       />
     </div>
   );
