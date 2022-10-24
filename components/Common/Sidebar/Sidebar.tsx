@@ -30,7 +30,7 @@ const Sidebar = ({ className, "data-testid": testId }: Props) => {
         </Button>
       </div>
 
-      <Navigation className="text-xl" />
+      {/* <Navigation className="text-xl" /> */}
     </div>
   );
 };

@@ -22,10 +22,10 @@ const Experience = ({}: Props) => {
                 @{experience.company}
               </TextLink>
             </h2>
-            <p className="text-sm text-accents-1">
+            <p className="text-sm text-accents-1 mt-2">
               {experience.time.start} - {experience.time.end}
             </p>
-            <ul className="mt-4 list-none ml-10">
+            <ul className="mt-4 list-none ml-2">
               {experience.points.map((point: any) => (
                 <li
                   className="mb-3 flex items-center"
@@ -44,12 +44,12 @@ const Experience = ({}: Props) => {
             <div className="mt-4s">
               <span className="text-accents-1 text-sm flex flex-col">
                 Technologies:
-                <div className="flex flex-wrap mt-2">
+                <div className="flex flex-wrap mt-4">
                   {experience.technologies.map((tech:any, j:any) => {
                     const image = technologies.technologies.find(t => t.slug === tech)
                     return !!image && (
                       <Technology
-                        detailed={false}
+                        detailed={true}
                         src={image.thumbnail}
                         title={image.title}
                         link={image.link}

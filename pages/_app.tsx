@@ -21,11 +21,11 @@ class MyApp extends App {
       <div className="bg-accents-0 text-accents-1 m-0 p-0">
         <Layout>
           <div className="relative">
-            <h2 className="text-5xl font-light hidden lg:block text-accents-2 uppercase">
+            {/* <h1 className="text-5xl hidden lg:block text-accents-2">
               {this.props.router.pathname.slice(1) === ""
-                ? "About"
+                ? "About Me"
                 : capitalize(this.props.router.pathname.slice(1))}
-            </h2>
+            </h1> */}
             <AnimatePresence>
               <div>
                 <motion.div

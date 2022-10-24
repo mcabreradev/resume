@@ -25,7 +25,7 @@ const Technology = ({
   return (
     <div
       data-testid={testId || "technology"}
-      className={clsx("text-center flex flex-col items-center justify-center", className)}
+      className={clsx("text-center flex flex-col items-center justify-center p-2", className)}
     >
       <img
         src={src}
@@ -35,6 +35,11 @@ const Technology = ({
         height={`${height}px` || "50px"}
         style={{'height': `${height}px`|| "50px"}}
       />
+      {detailed && (
+        <div className="text-xs pt-2 text-gray-200">
+          {title}
+        </div>
+      )}
     </div>
   );
 };
