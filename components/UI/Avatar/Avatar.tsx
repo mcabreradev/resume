@@ -21,7 +21,7 @@ const Avatar = ({
     <img
       data-testid={testId || "avatar"}
       className={clsx(
-        "inline object-cover h-48 w-48 rounded-full text-white shadow-solid",
+        "inline object-cover h-48 w-48 rounded-full text-white shadow-solid border border-primary",
         className
       )}
       src={src}
@@ -32,3 +32,11 @@ const Avatar = ({
   );
 };
 export default Avatar;
+
+// .circle {
+//   border: 2px solid red;
+//   background-color: #FFFFFF;
+//   height: 100px;
+//   border-radius:50%;
+//   width: 100px;
+// }
