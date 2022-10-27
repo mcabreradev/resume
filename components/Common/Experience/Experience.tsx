@@ -14,7 +14,7 @@ const Experience = ({}: Props) => {
   return (
     <>
       { experience.map((experience: any, index: any) => (
-        <div key={`experience-${index}`} data-testid="experience" className="flex flex-col md:flex-row mb-20">
+        <div key={`experience-${index}`} data-testid="experience" className="flex flex-col md:flex-row mb-12 ">
           <div>
             <h2 className="text-lg text-secondary font-bold uppercase">
               {experience.role}{" "}

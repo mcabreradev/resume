@@ -11,7 +11,7 @@
     "twitter": "https://twitter.com/mcabreradev",
     "linkedin": "https://www.linkedin.com/in/mcabreradev/",
     "whatsapp": "https://api.whatsapp.com/send?phone=541122510921&text=Hi%20Migue%20i%20want%20to%20contact%20you&source=&data=",
-    "email": "mailto:mcabrera.dev@gmail.com"
+    "email": "mailto:hi@mcabrera.dev"
   },
   "website": "https://mcabrera.dev",
   "links": {
@@ -30,8 +30,8 @@
       },
       "technologies": ["ionic", "ts", "graphql", "node", "react", "storybook"],
       "points": [
-        "E-commerce site developed with Nextjs Server Side Render and Graphql Headless Backend.",
-        "Fix bugs and implemented enhancements speed  and catching on existing code base"
+        "Developed a mobile app for the construction industry, rental of equipment and materials, management of employees, external employees, salaries, billing.",
+        "Fix bugs and implemented features"
       ]
     },
     {

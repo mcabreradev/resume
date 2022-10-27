@@ -16,7 +16,7 @@ const Icon = ({ SVG, size, className, "data-testid": testId }: Props) => {
       data-testid={testId || "icon"}
       size={size || defaultSize}
       className={clsx(
-        "fill-current text-accents-1 hover:text-primary transform hover:-translate-y-1 transition duration-150 ease-in-out",
+        "fill-current text-accents-1 hover:text-primary transform",
         className
       )}
     />

@@ -52,7 +52,7 @@ module.exports = {
         red: "#ff6767",
         orange: "#ffca85",
         yellow: "#ffff00",
-        blue: "#82E2FF",
+        blue: "#82E2FF", 
         pink: "#F694FF",
         white: "#edecee",
         gray: "#6d6d6d",
@@ -60,7 +60,7 @@ module.exports = {
         "accents-0": "#212121",
         "accents-1": "#CACACA",
         "accents-2": "#E9E9E9",
-        ...colors
+        // ...colors
       },
       maxWidth: {
       }
