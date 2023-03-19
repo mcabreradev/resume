@@ -16,18 +16,21 @@ const IndexPage = () => {
   return (
     <div>
       <div className="mt-0 md:mt-4 lg:mt-10">
-        <TitleCustom>Biography</TitleCustom>
+        <TitleCustom>ABOUT ME</TitleCustom>
         <p className="text-accents-1 text-sm leading-6">
-          Hey there! I’m Miguelángel Cabrera. A frontend engineer based in Buenos Aires, Argentina.
+          Hey there! I’m Miguelángel Cabrera, based in Buenos Aires, Argentina.
         </p>
-        <p className="mt-3 text-accents-1 text-sm leading-6">
-          I enjoy building software such as web applications with the
-          most modern & latest technology available. My purpose is to create
-          robust software following software engineering principles & best
-          practices.
+        <p className="mt-5 text-accents-1 text-sm leading-6">
+          I'm a Senior Frontend Engineer with over 10 years of experience in developing web applications using technologies such as JavaScript, React, and the entire JavaScript stack. I'm passionate about creating high-quality and scalable technological solutions that exceed the customer's expectations.
         </p>
-        <p className="mt-3 text-accents-1 text-sm leading-6">
-          I'm currently working as an independent contractor and <span className="text-primary">available for new offers</span>, if you have a great one don't hesitate, drop me a line.
+        <p className="mt-5 text-accents-1 text-sm leading-6">
+          Throughout my career, I've worked on projects of different sizes, from small applications to large enterprise projects. I enjoy leading development teams and collaborating on challenging projects.
+        </p>
+        <p className="mt-5 text-accents-1 text-sm leading-6">
+          I'm a proactive and adaptable person, which allows me to work effectively and collaboratively with teams. I like to stay up-to-date on the latest technological trends and apply them to my work.
+        </p>
+        <p className="mt-5 text-accents-1 text-sm leading-6">
+          If you'd like to learn more about my experience and skills, <span className="text-primary">I'd be happy to schedule a meeting</span> to discuss them in detail.
         </p>
         <div className="mt-14">
           <TitleCustom>Experience</TitleCustom>
