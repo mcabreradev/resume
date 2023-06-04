@@ -38,7 +38,7 @@
       "company": "Clevertech",
       "link": "http://clevertech.biz",
       "time": {
-        "start": "May 2020",
+        "start": "May 2021",
         "end": "May 2023"
       },
       "technologies": ["ionic", "ts", "graphql", "node", "react", "storybook"],
@@ -53,7 +53,7 @@
       "link": "",
       "time": {
         "start": "Dec 2020",
-        "end": "May 2020"
+        "end": "May 2021"
       },
       "technologies": ["nextjs", "ts", "graphql", "node", "postgres", "tailwind"],
       "points": [
