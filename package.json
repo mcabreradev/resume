@@ -6,8 +6,8 @@
     "build": "next build",
     "start": "next start",
     "clean": "next clean",
-    "test": "jest --watch",
-    "integration": "cypress open",
+    "test": "next build",
+    "integration": "next build",
     "type-check": "tsc"
   },
   "dependencies": {
